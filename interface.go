@@ -54,21 +54,21 @@ func PrintInfo(name Animal) {
 }
 
 
-func (d *Dog) Says() string {
+func (say *Dog) Says() string {
 	return "wolf"
 
 }
 
-func (d *Dog) NumberOfLegs() int {
+func (legs *Dog) NumberOfLegs() int {
 	return 4
 }
 
 
-func (d *Gorilla) Says() string {
+func (say *Gorilla) Says() string {
 	return "Ahh"
 
 }
 
-func (d *Gorilla) NumberOfLegs() int {
+func (legs *Gorilla) NumberOfLegs() int {
 	return 2
 }
